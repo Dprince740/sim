@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.tt{
+    background: linear-gradient(90deg,#17ead9 0,#6078ea 100%);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.tt button:hover{
+    background-color: white;
+    color: black !important;
+}
+.create{
+    width: 100%;
+    background: linear-gradient(90deg,#17ead9 0,#6078ea 100%);
+}
+.buss h6{
+    font-size: 15px;
+    line-height: 25px;
+    color: grey;
+}
+.ll{
+    background-color: #cfd2d4;
+}
+@media (992px <= width <=2000px ) {
+    .lll{
+        margin-top: -50px;
+    }
+    .gg img{
+        margin-left: -125px;
+    }
+    .gh{
+        margin-left: -165px;
+    }
+    .bi img{
+        
+    }
+}
